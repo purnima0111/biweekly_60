@@ -87,13 +87,4 @@ namespace ConsoleApplication
 
 
 
-                // Input User Choice
-                Console.Write("Input Y/y To Continue Or Any Other Key To Exit: ");
-
-                // Get First Letter Of Choice
-                choice = Console.ReadLine().ToLower()[0];
-                Console.WriteLine();
-            } while (choice == 'y');
-        }
-    }
-}
+               
